@@ -76,11 +76,11 @@ export class UsuariosComponent {
       alert('Revise los datos proporcionados, se han encontrado errores de validaciones.');
     } else {
       console.log('Guardando usuario.');
-      this.setTratamiento();
+      this.setUsuario();
     }
   }
 
-  setTratamiento(): void {
+  setUsuario(): void {
 
     var nombre = this.usuarioForm.get('nombre')!.value;
     var usuario = this.usuarioForm.get('usuario')!.value;

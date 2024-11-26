@@ -3,6 +3,26 @@ import { formatDate, CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
+
+/**
+ * @descripcion
+ * Gestión de agenda
+ * 
+ * Permite concretar la reserva de horas médicas 
+* 
+ */
+
+/**
+ * 
+ * @usageNotes
+ * 
+ * Selección de fecga
+ * Selección de hora
+ * Selección de pacientes
+ * Selección de tratamientos
+ *
+ **/
+
 @Component({
   selector: 'app-agenda',
   standalone: true,

@@ -3,6 +3,27 @@ import { formatDate, CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
+
+/**
+ * @descripcion
+ * Administración de pacientes
+ * 
+ * Permite administrar los usuarios para ser usados
+ * en la agendamiento de horaras.
+ * 
+ */
+
+/**
+ * 
+ * @usageNotes
+ * 
+ * Agregar pacientes
+ * Quitar pacientes
+ * Pacientes almacenados en un arreglo temporal
+ *
+ **/
+
+
 @Component({
   selector: 'app-pacientes',
   standalone: true,

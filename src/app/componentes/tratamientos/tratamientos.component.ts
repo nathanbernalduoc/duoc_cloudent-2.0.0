@@ -3,6 +3,26 @@ import { formatDate, CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
+/**
+ * @descripcion
+ * Administración de tratamientos
+ * 
+ * Permite mandener tratamientos los que pueden ser utilizadns
+ * en el formulario de agenda para seleccionar.
+ * 
+ */
+
+/**
+ * 
+ * @usageNotes
+ * 
+ * Agregar tratamientos
+ * Quitar tratamientos
+ * Tratamienso almacenados en un arreglo temporal
+ *
+ **/
+
+
 @Component({
   selector: 'app-tratamientos',
   standalone: true,

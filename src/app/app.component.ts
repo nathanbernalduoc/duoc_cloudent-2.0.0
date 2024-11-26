@@ -3,6 +3,27 @@ import { BootstrapOptions, Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterOutlet } from '@angular/router';
 
+/**
+ * @descripcion
+ * Componente principal
+ * 
+ * Despliega menu y login
+ * Permite recuperar contraseña detallando el email del usaurio
+ * Usuario de admin por defecto: nathanbernal@gmail.com / 123.
+ * Se utilzan los estlos por default de bootstrap.
+ *
+ */
+
+/**
+ * 
+ * @usageNotes
+ * 
+ * Importa módulos para despliegue de vista
+ * Implementa funciones para capturar la navegación 
+ * Enruta a cada vista.
+ */
+
+
 @Component({
   selector: 'app-root',
   standalone: true,

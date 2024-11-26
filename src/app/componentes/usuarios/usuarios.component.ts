@@ -3,6 +3,24 @@ import { formatDate, CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
+/**
+ * @descripcion
+ * Administración de usuarios
+ * 
+ * Permite  mandener usuarios
+ * 
+ */
+
+/**
+ * 
+ * @usageNotes
+ * 
+ * Agregar usuarios
+ * Quitar usuarios
+ * Usuarios almacenados en un arreglo temporal
+ * La recuperación de contraseña se encuentra en el login, boton "Recuperar contraseña"
+ */
+
 @Component({
   selector: 'app-usuarios',
   standalone: true,
